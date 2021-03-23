@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  border: 1px solid grey;
+  width: 75%;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav-left, .nav-right{
+  height: 100%;
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+}
+
+header span{
+  padding: 30px;
+
+}
+
+header button{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.nav-left img{
+
+  height: 30px;
+}
