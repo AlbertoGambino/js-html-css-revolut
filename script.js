@@ -2,12 +2,12 @@ function init() {
 
   function init() {
 
-  $('.nav-left').hover(function(){
+  $('.nav-right span').hover(function(){
 
-      console.log('prova1')
-
+    $(this).find('.dropdown').addClass('active')
+    // $('.dropdown').addClass('active')
   }, function(){
-
-      console.log('prova2')})
+    
+    $('.dropdown').removeClass('active')})
 }
 $(document).ready(init)

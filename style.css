@@ -33,7 +33,98 @@ header button{
 
 }
 
+#button-sign{
+  background-color: grey;
+  font-weight: bold;
+}
+
+#button-get{
+  background-color: black;
+  color: white;
+}
+
 .nav-left img{
 
   height: 30px;
+}
+
+#d1{
+  position: relative;
+}
+
+.feat{
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  min-width: 500px;
+  position: absolute;
+  left: 20px;
+  top: 100px;
+  display: none;
+}
+
+.feat ul li{
+  padding: 10px;
+  list-style-type: none;
+}
+
+#d2{
+  position: relative;
+}
+
+.plans{
+  border: 1px solid black;
+  border-radius: 5px;
+  min-width: 200px;
+  position: absolute;
+  left: 20px;
+  top: 100px;
+  display: none;
+}
+
+.plans ul li{
+  padding: 10px;
+  list-style-type: none;
+}
+
+#d3{
+  position: relative;
+}
+
+.about{
+  border: 1px solid black;
+  border-radius: 5px;
+  min-width: 200px;
+  position: absolute;
+  left: 20px;
+  top: 100px;
+  display: none;
+}
+
+.about ul li{
+  padding: 10px;
+  list-style-type: none;
+}
+
+#d4{
+  position: relative;
+}
+
+.help{
+  border: 1px solid black;
+  border-radius: 5px;
+  min-width: 200px;
+  position: absolute;
+  left: 20px;
+  top: 100px;
+  display: none;
+}
+
+.help ul li{
+  padding: 10px;
+  list-style-type: none;
+}
+
+.active{
+  display:block;
 }
