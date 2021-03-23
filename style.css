@@ -55,13 +55,14 @@ header button{
 .feat{
   border: 1px solid black;
   border-radius: 5px;
-  display: flex;
+  /* display: flex; */
   min-width: 500px;
   position: absolute;
   left: 20px;
   top: 100px;
   display: none;
 }
+
 
 .feat ul li{
   padding: 10px;
@@ -126,5 +127,5 @@ header button{
 }
 
 .active{
-  display:block;
+  display:flex;
 }
